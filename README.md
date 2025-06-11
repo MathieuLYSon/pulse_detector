@@ -37,9 +37,7 @@ Chaque patient possède deux conditions testées : `normal` et `physical`.
 - **Comparaison** :
   - Comparaison des BPM prédits pour les signaux rPPG et ECG après synchronisation.
 
-## Exécution
-
-Depuis le Terminal:
+## Exécution depuis le Terminal:
 
 # Créer l'environnement définit dans environment.yml
 conda env create -f environment.yml
