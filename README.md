@@ -39,5 +39,14 @@ Chaque patient possède deux conditions testées : `normal` et `physical`.
 
 ## Exécution
 
-Le projet est entièrement contenu dans un Notebook `hr_estimation.ipynb`.  
+Depuis le Terminal:
+
+# Créer l'environnement définit dans environment.yml
+conda env create -f environment.yml
+# Activer l'environnement
+conda activate rppg_env
+# Ouvrir le Jyputer notebook
+jupyter notebook
+
+Le projet est entièrement contenu dans un Notebook `hr_estimation.ipynb` exécutable dans l'environnement définit dans le fichier **environment.yml**.  
 Il nécessite la présence des vidéos et fichiers ECG dans l'arborescence `data/`.

@@ -1,0 +1,18 @@
+name: rppg_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mediapipe==0.9.1.0
+      - numpy==1.24.3
+      - scipy==1.10.1
+      - opencv-python==4.7.0.72
+      - matplotlib==3.7.1
+      - scikit-learn==1.2.2
+      - tqdm==4.65.0
+      - pywavelets==1.4.1
+      - ipykernel==6.23.1
+      - jupyterlab==3.6.3
